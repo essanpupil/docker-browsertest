@@ -1,0 +1,8 @@
+image: essanpupil/browsertest
+all_tests:
+  script:
+    - sh ./installs.sh
+    - pytest
+  when: on_success
+  only:
+    - master
