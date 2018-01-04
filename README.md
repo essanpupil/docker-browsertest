@@ -1,2 +1,2 @@
-# docker-browsertest
+# browsertest
 Browser test inside docker container
