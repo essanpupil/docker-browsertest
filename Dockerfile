@@ -4,3 +4,5 @@ USER root
 WORKDIR /root
 RUN apk update
 RUN apk add --upgrade chromium chromium-chromedriver
+RUN apk add --upgrade git
+RUN apk add --upgrade python3
